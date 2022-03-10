@@ -6,4 +6,4 @@ description: My bachelor thesis for the Informatics and Sustainability Research 
 date: '2022-03-10'
 ---
 
-Bringing light on the climate impacts of streaming video.
+Uncovering the climate impacts of streaming video.

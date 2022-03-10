@@ -81,6 +81,13 @@ const ACTIONS: Array<NavigationItem> = [
 		icon: <ActionIcon icon="feather:github" />,
 		text: 'GitHub',
 	},
+	{
+		type: NavigationItemType.LINK,
+		external: true,
+		href: 'https://www.linkedin.com/in/marvin-m%C3%BCnger-45899975/',
+		icon: <ActionIcon icon="feather:linkedin" />,
+		text: 'LinkedIn',
+	}
 ];
 
 export default function HomePage() {

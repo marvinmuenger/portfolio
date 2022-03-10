@@ -49,6 +49,13 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			href: 'https://github.com/marvinmuenger',
 			external: true,
 		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:linkedin',
+			text: 'LinkedIn',
+			href: 'https://www.linkedin.com/in/marvin-m%C3%BCnger-45899975/',
+			external: true,
+		}
 	],
 ];
 
