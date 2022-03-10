@@ -1,0 +1,34 @@
+[
+	{
+		"date": "09-01-2021",
+		"title": "First Developer Job",
+		"description": "Began my first part time job as a developer at Bluematic AG",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit Bluematic",
+			"url": "https://bluematicag.com/"
+		}
+	},
+	{
+		"date": "06-01-2021",
+		"title": "Internship",
+		"description": "Began my internship at Buhlergroup as a software developer",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit Buhler Group",
+			"url": "http://buhlergroup.com/"
+		}
+	},
+	{
+		"date": "09-01-2020",
+		"title": "Start University",
+		"description": "Began studying Computer Science at the University of Zurich",
+		"icon": "feather:book"
+	},
+	{
+		"date": "04-26-1999",
+		"title": "Birthday!",
+		"description": "I was born the 26th of April 1999",
+		"icon": "feather:gift"
+	}
+]
