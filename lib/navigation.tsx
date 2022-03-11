@@ -31,7 +31,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
-			text: 'CV',
+			text: 'Timeline',
 			href: '/timeline',
 		},
 		// {
@@ -52,7 +52,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:linkedin',
-			text: 'LinkedIn',
+			text: 'Marvin Münger',
 			href: 'https://www.linkedin.com/in/marvin-m%C3%BCnger-45899975/',
 			external: true,
 		}
