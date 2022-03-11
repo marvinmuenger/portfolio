@@ -4,7 +4,6 @@ import { join } from 'path';
 import { readdirSync, readFileSync } from 'fs';
 import { serialize } from 'next-mdx-remote/serialize';
 
-import RehypeAutolinkHeadings from 'rehype-autolink-headings';
 import RemarkCodeTitles from 'remark-code-titles';
 import RemarkEmoji from 'remark-emoji';
 import RemarkPrism from 'remark-prism';

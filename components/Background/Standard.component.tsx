@@ -28,7 +28,7 @@ export function Standard() {
 		const camera = new Camera(gl, {
 			fov: 15,
 		});
-		camera.position.z = 15;
+		camera.position.z = 20;
 
 		function handleReisze(): void {
 			renderer.setSize(window.innerWidth, window.innerHeight);
@@ -44,7 +44,7 @@ export function Standard() {
 			handleReisze();
 		} catch (error) {}
 
-		const numParticles = 100;
+		const numParticles = 50;
 		const position = new Float32Array(numParticles * 3);
 		const random = new Float32Array(numParticles * 4);
 
