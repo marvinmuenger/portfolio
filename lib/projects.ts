@@ -18,14 +18,11 @@ let redis;
  * @TODO Switch to v3 API using GraphQL to save over-fetching
  */
 async function fetchProjects(): Promise<Projects | null> {
-	const response = await fetch('https://api.github.com/users/marvinmuenger/repos', {
-		headers: {
-			...(process.env.GITHUB_PAT && {
-				authorization: `token ${process.env.GITHUB_PAT}`,
-			}),
-		},
-	});
+	const response = await fetch('https://api.github.com/users/marvinmuenger/repos');
+
 	if (response.status !== 200) {
+		// handle error, print to console
+
 		const json = (await response.json()) as {
 			documentation_url: string;
 			message: string;

@@ -29,11 +29,9 @@ const ProjectIcon = styled.span(tw`
 export const getServerSideProps: GetServerSideProps<ProjectProps> = async ({ res }) => {
 	res.setHeader('Cache-Control', 'public, max-age=3600, immutable');
 
-	const projects = await getProjects();
-
 	return {
 		props: {
-			projects: JSON.stringify(projects),
+			projects: JSON.stringify({"pageProps":{"stringifiedProjects":"[{\"description\":\"[WIP] Experimental 3D Rust game engine\",\"icon\":\"🦀\",\"homepage\":\"\",\"name\":\"atlas\",\"template\":false,\"url\":\"https://github.com/nurodev/atlas\"},{\"description\":\"Template repository to create a new Rust library crate\",\"icon\":\"📦\",\"homepage\":\"\",\"name\":\"crate-template\",\"template\":false,\"url\":\"https://github.com/nurodev/crate-template\"},{\"description\":\" Template repository to help bootstrap a new Deno module\",\"icon\":\"🦕\",\"homepage\":\"\",\"name\":\"deno-module\",\"template\":false,\"url\":\"https://github.com/nurodev/deno-module\"},{\"description\":\" JavaScript / TypeScript SDK for the Lemon Squeezy API\",\"icon\":\"🍋\",\"homepage\":\"https://paka.dev/npm/lemonsqueezy.ts\",\"name\":\"lemonsqueezy.ts\",\"template\":false,\"url\":\"https://github.com/nurodev/lemonsqueezy.ts\"},{\"description\":\" Lightweight MailerSend Node.js api written in TypeScript\",\"icon\":\"📫\",\"homepage\":\"https://npmjs.com/package/@nurodev/mailersend.ts\",\"name\":\"mailersend.ts\",\"template\":false,\"url\":\"https://github.com/nurodev/mailersend.ts\"},{\"description\":\"Bootstrap Next.js with WindiCSS & more\",\"icon\":\"💨\",\"homepage\":\"https://nextwind.nuro.dev\",\"name\":\"nextwind\",\"template\":false,\"url\":\"https://github.com/nurodev/nextwind\"},{\"description\":\"Template project to build a new NPM package using TypeScript\",\"icon\":\"❗\",\"homepage\":\"\",\"name\":\"npm-template\",\"template\":false,\"url\":\"https://github.com/nurodev/npm-template\"},{\"description\":\" Personal Portfolio\",\"icon\":\"🌿\",\"homepage\":\"https://nuro.dev\",\"name\":\"nuro.dev\",\"template\":false,\"url\":\"https://github.com/nurodev/nuro.dev\"},{\"description\":\" A lightweight PUBG API wrapper written in TypeScript\",\"icon\":\"🐔\",\"homepage\":\"https://paka.dev/npm/pubg.ts\",\"name\":\"pubg.ts\",\"template\":false,\"url\":\"https://github.com/nurodev/pubg.ts\"}]"},"__N_SSG":true}),
 		},
 	};
 };

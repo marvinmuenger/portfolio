@@ -11,11 +11,18 @@ const StyledContainer = styled.ul(tw`
 `);
 
 export function Container<T>({ item: Component, items }: ContainerProps<T>) {
+	if (!items) {
+	  return null;
+	}
+
+	console.log('items', items)
+  
 	return (
-		<StyledContainer role="list">
-			{items.map((item, index) => (
-				<Component key={index} index={index} {...item} />
-			))}
-		</StyledContainer>
+	  <StyledContainer role="list">
+		{items.map((item, index) => (
+		  <Component key={index} index={index} {...item} />
+		))}
+	  </StyledContainer>
 	);
 }
+  
