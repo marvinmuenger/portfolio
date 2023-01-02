@@ -42,7 +42,7 @@ export default function ProjectsPage({ projects: serialisedProjects }: ProjectPr
 	const projects = JSON.parse(serialisedProjects) as Projects;
 
 	return (
-		<Layout.Default seo={{ title: 'nuro ─ projects' }}>
+		<Layout.Default seo={{ title: 'marvin ─ projects' }}>
 			<Container>
 				<Content>
 					<List.Container
