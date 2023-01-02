@@ -22,12 +22,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Blog',
 			href: '/blog',
 		},
-		// {
-		// 	type: NavigationItemType.LINK,
-		// 	icon: 'feather:copy',
-		// 	text: 'Projects',
-		// 	href: '/projects',
-		// },
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:copy',
+			text: 'Projects',
+			href: '/projects',
+		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
