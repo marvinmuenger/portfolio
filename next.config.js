@@ -20,6 +20,7 @@ module.exports = {
 
 			// Blog
 			'img.utopia.de',
+			'images.unsplash.com',
 		],
 	},
 	// Inspired by: https://github.com/leerob/leerob.io/blob/main/next.config.js#L44-L81
