@@ -36,6 +36,7 @@ In addition to the main technologies mentioned above, I also use a number of oth
 
 - **Stripe** to allow users to invoie their driving students and receive payments
 - **SMTP2GO** to send emails and track the status of sent invoices
+- **Netlify** to host the web application
 
 ## Conclusion
 
