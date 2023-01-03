@@ -13,11 +13,7 @@
 		"date": "10-01-2022",
 		"title": "Graduated from University",
 		"description": "Received my BSc in Computer Science from the University of Zurich",
-		"icon": "feather:briefcase",
-		"link": {
-			"text": "Visit Bluematic",
-			"url": "https://bluematicag.com/"
-		}
+		"icon": "feather:briefcase"
 	},
 	{
 		"date": "09-01-2021",
