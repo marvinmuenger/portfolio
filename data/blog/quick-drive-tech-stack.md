@@ -34,7 +34,7 @@ Because I am developing alone on this project, I need to keep things as simple a
 
 In addition to the main technologies mentioned above, I also use a number of other technologies to build Quick Drive. These include:
 
-- **Stripe** to allow users to invoie their driving students and receive payments
+- **Stripe** to allow users to invoice their driving students and receive payments
 - **SMTP2GO** to send emails and track the status of sent invoices
 - **Netlify** to host the web application
 
