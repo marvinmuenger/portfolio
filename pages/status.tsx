@@ -16,7 +16,7 @@ const Content = styled.div(tw`
 
 export default function StatusPage() {
 	return (
-		<Layout.Default seo={{ title: 'nuro ─ status' }}>
+		<Layout.Default seo={{ title: 'marvin ─ status' }}>
 			<Container>
 				<Content>
 					<Status.Widget />
