@@ -1,5 +1,15 @@
 [
 	{
+		"date": "03-01-2023",
+		"title": "2BIT AG",
+		"description": "Started working at 2BIT AG as a software engineer",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit 2BIT AG",
+			"url": "https://2bit.ch/"
+		}
+	},
+	{
 		"date": "10-01-2022",
 		"title": "Quick Drive",
 		"description": "Started working on Quick Drive, a simple and easy to use management system for driving schools",
